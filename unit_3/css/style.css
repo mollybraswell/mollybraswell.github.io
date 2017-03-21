@@ -2,19 +2,32 @@ body{background: E8F1FF;
 }
 h1{color: #FFD24B; 
 	font-family: Helvetica; 
-		font-size: 24px;
-		font-weight: bold;}
-
-		#slogan{color:black;
+		font-size: 65px;
+		font-weight: bold;
+		text-align: center;}
+	#slogan{color:black;
 			font-family: Helvetica;
 			font-weight: normal;
 			font-style: italic;
-			font-size: 16px}
+			font-size: 36px}
 p{color:black;
 font-family: Helvetica;
 font-weight: normal;
-font-size: 12px;
+font-size: 29px;
     padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 50px;
     padding-left: 80px;}
+
+  h3{color: #FFD24B; 
+	font-family: Helvetica; 
+		font-size: 44px;
+		font-weight: bold;
+		text-align: center;}
+
+    ul{color:black;
+font-family: Helvetica;
+font-weight: normal;
+font-size: 29px;
+text-align: center;
+list-style-type: none;}
