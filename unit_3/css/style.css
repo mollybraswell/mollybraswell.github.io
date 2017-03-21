@@ -7,17 +7,20 @@ h1{color: #FFD24B;
 		font-size: 65px;
 		font-weight: bold;
 		text-align: center;}
+
+		.image{position: relative;
+			width: 100%;}
+
+		h2{position: absolute;
+			top:200px;
+			left: 0;
+			width: 100%}
+
 	#slogan{color:black;
 			font-family: Helvetica;
 			font-weight: normal;
 			font-style: italic;
 			font-size: 36px}
-
-	.logo{
-		background: url("images/logo 2.jpg");
-		width: 960px;
-		height:148px;
-	}
 
 p{color:black;
 font-family: Helvetica;
