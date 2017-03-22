@@ -1,7 +1,16 @@
-
-header{}
-body{background: E8F1FF;
+*{
+	padding: 0;
+	margin: 0;
 }
+
+
+
+body{background: E8F1FF; font-family: Helvetica; 
+		font-size: 20px; color:#222222}
+
+	header{background-color: #CDD4E0;
+	padding: 20px}	
+
 h1{color: #FFD24B; 
 	font-family: Helvetica; 
 		font-size: 65px;
@@ -11,16 +20,15 @@ h1{color: #FFD24B;
 		.image{position: relative;
 			width: 100%;}
 
+a{color: black; text-decoration: none}
+/*Do I need this? */
+
 		h2{color: #FFD24B; 
 	font-family: Helvetica; 
 		font-size: 65px;
 		font-weight: bold;
 		text-align: center;}
-		h2{
-			position: absolute;
-			top:200px;
-			left: 0;
-			width: 100%}
+
 
 	#slogan{color:black;
 			font-family: Helvetica;
