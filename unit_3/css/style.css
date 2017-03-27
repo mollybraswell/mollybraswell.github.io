@@ -2,60 +2,99 @@
 	padding: 0;
 	margin: 0;
 }
+body{
+	background: #white; 
+	font-size: 20px; 
+	color:#222222;
+}
+
+header{
+	background-color: #white;
+	padding: 20px;
+}	
+
+#nav     {
+    overflow:hidden;
+    margin: 0;
+    padding: 0;
+    align: center;
+    }
 
 
+li      {
+    float: right;}
 
-body{background: E8F1FF; font-family: Helvetica; 
-		font-size: 20px; color:#222222}
+    a:link,a:visited
+    {
+    width:120px;
+    font-family: 'Nunito', sans-serif;
+    font-weight:normal;
+    color:black;
+    background-color:#white;
+    text-align:center;
+    padding:4px;
+    text-decoration:none;
+    text-transform:uppercase;
+    }
+    a:hover,a:active
+    {
+    background-color:#DAA520;
+    }
 
-	header{background-color: #CDD4E0;
-	padding: 20px}	
+header img {
+	padding-left: 130px;
+}
 
-h1{color: #FFD24B; 
+h1{
+	color: #FFD24B; 
 	font-family: Helvetica; 
-		font-size: 65px;
-		font-weight: bold;
-		text-align: center;}
+	font-size: 65px;
+	font-weight: bold;
+	text-align: center;
+}
 
-		.image{position: relative;
-			width: 100%;}
+.image{
+	margin-top: 45px;
+	margin-bottom: 45px;
+	opacity: 0.75;
+	position: relative;
+	width: 100%;
+	background-image: url(../images/computer.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 1040px;
 
-a{color: black; text-decoration: none}
-/*Do I need this? */
+}
 
-h2{color:black; 
-	font-family: Helvetica; 
-		font-size: 36px;
-		font-weight: normal;
-		text-align: left;}
+a{
+	color: black; 
+	text-decoration: none;
+}
 
+h2{
+	color:black; 
+	font-family: 'Nunito', sans-serif;
+	font-size: 32px;
+	font-weight: normal;
+	text-align: left;
+	}
 
-	#slogan{color:black;
-			font-family: Helvetica;
-			font-style: italic;
-			font-size: 30px}
-			/*Why is this not in italics?*/
+h3{
+  	color:#DAA520; 
+	font-family: 'Nunito', sans-serif;
+	font-size: 44px;
+	font-weight: normal;
+	text-align: center;
+}
 
-p{color:black;
-font-family: Helvetica;
-font-weight: normal;
-font-size: 29px;
-    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;}
+ul{
+    	color:black;
+	font-family: Helvetica;
+	font-weight: normal;
+	font-size: 29px;
+	text-align: left;
+	list-style-type: none;
+	border-style: solid;
+	margin-left: 30px;
+}
 
-  h3{color: #FFD24B; 
-	font-family: Helvetica; 
-		font-size: 44px;
-		font-weight: normal;
-		text-align: center;}
-
-    ul{color:black;
-font-family: Helvetica;
-font-weight: normal;
-font-size: 29px;
-text-align: left;
-list-style-type: none;
-border-style: solid;
-margin-left: 30px}
