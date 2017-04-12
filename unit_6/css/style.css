@@ -1,47 +1,91 @@
 header{
-	background-color: #FFED74;
+	background-color: #fff;
 	border: 1 px black solid;
-	padding: 20px;
-	margin: 55px;
+	padding: 15px;
+	margin: 85px;
 }
 
+h3{
+	font-family: 'Nunito', sans-serif;
+	font-size: 28px;
+	text-decoration: none;
+}
 nav{
-	background-color: #E8C66A;
-	border: 1 px black solid;
+	background-color: #D3D3D3;
 	padding: 20px;
+}
+
+nav a{
+	padding: 10px;
 }
 
 section{
-	background-color: #FFE2B8;
+	background-color: #fff;
 	border: 1 px black solid;
 	padding: 20px;
 }
 
-.image{
-	background-color: #FFE2B8;
-	border: 1 px black solid;
-	padding: 20px;
+a{
+	color: black; 
+	font-family: 'Nunito', sans-serif;
+	font-size: 20px;
+	text-decoration: none;
 }
+
+.hero_image{
+	margin-top: 45px;
+	margin-bottom: 45px;
+	opacity: 0.75;
+	position: relative;
+	width: 100%;
+	background-image: url(../images/hero.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 0px;
+	padding-bottom: 56.25%;
+	overflow: hidden;
+}
+
+#image_text{
+	position: absolute;
+	font-family: 'Nunito', sans-serif;
+	font-size: 48px;
+	text-transform: capitalize;
+	border: 5px black solid;
+	padding: 40px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
 .list_container{
-	background-color: #FFE2B8;
+	background-color: #fff;
 	border: 1 px black solid;
+	font-family: Arial, sans-serif;
+	font-size: 28px;
 	padding: 20px;
+	margin: 55px;
+	float: left;
 }
 #two_column{
-	background-color: #FFB7CF;
+	background-color: #ffe6b3;
 	border: 1px black solid;
 	padding: 20px;
 }
 #left {
-    background-color: violet;
+    background-color: #fff;
     border: 1px black solid;
+    font-family: 'Nunito', sans-serif;
+	font-size: 36px; 
     padding: 20px;
     float: left;
     width: 30%;
 }
 #right {
-    background-color: pink;
+    background-color: #fff;
     border: 1px black solid;
+    font-family: 'Nunito', sans-serif;
+	font-size: 30px; 
     padding: 20px;
     float: right;   
     width: 62%;
@@ -55,7 +99,6 @@ section{
     height: 0;
 }
 footer{
-	background-color: #FF957E
-	border: 1 px black solid;
+	background-color: #D3D3D3;
 	padding: 20px;
 }
