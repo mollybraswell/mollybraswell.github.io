@@ -1,13 +1,10 @@
 header{
 	background-color: #fff;
-	border: 1 px black solid;
-	padding: 15px;
-	margin: 85px;
 }
 
 h3{
 	font-family: 'Nunito', sans-serif;
-	font-size: 28px;
+	font-size: 22px;
 	text-decoration: none;
 }
 nav{
@@ -30,6 +27,14 @@ a{
 	font-family: 'Nunito', sans-serif;
 	font-size: 20px;
 	text-decoration: none;
+}
+
+ul{
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	margin: 35px;
+	list-style: square outside none;
+	line-height: 1.25em;
 }
 
 .hero_image{
@@ -60,7 +65,6 @@ a{
 
 .list_container{
 	background-color: #fff;
-	border: 1 px black solid;
 	font-family: Arial, sans-serif;
 	font-size: 28px;
 	padding: 20px;
@@ -68,24 +72,21 @@ a{
 	float: left;
 }
 #two_column{
-	background-color: #ffe6b3;
-	border: 1px black solid;
+	background-color: #fff;
 	padding: 20px;
 }
 #left {
     background-color: #fff;
-    border: 1px black solid;
     font-family: 'Nunito', sans-serif;
-	font-size: 36px; 
+	font-size: 24px; 
     padding: 20px;
     float: left;
     width: 30%;
 }
 #right {
     background-color: #fff;
-    border: 1px black solid;
     font-family: 'Nunito', sans-serif;
-	font-size: 30px; 
+	font-size: 24px; 
     padding: 20px;
     float: right;   
     width: 62%;
@@ -97,8 +98,8 @@ a{
     content: " ";
     clear: both;
     height: 0;
-}
+ }
 footer{
 	background-color: #D3D3D3;
-	padding: 20px;
+	padding: 4px;
 }
