@@ -32,16 +32,16 @@ h1 span {
 
 .cta {
 	color: #fff;
-	border-radius: 25px;
+	border-radius: 3%;
 	background: #e1c444;
 	padding:1em 2em;
 	text-decoration:none;
 	display: inline-block;
 }
 
-#description {
-	padding: 2em;
-	margin: 2em
+.description {
+	padding: 1em;
+	margin: 0 5 5 0;
 	font-size: 1.5em;
 }
 
@@ -52,28 +52,37 @@ h1 span {
 	background-image: url(../images/working.jpeg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 100vh;
-	padding-top: 15em;
+	background-position: center;
+	height: 90vh;
+	/*padding-top: 15em;*/
+	position: relative;
 }
 
 #image_text{
 	font-size: 1.5em;
 	text-transform: capitalize;
 	text-align: center;
+	position: relative;
+	transform: translateY(-50%);
+	top:50%;
+}
+
+#image_text h1 {
+	margin: 0em;
 }
 #three_column {
 	padding-top: 1em;
 	margin:auto;
-	max-width: 25em;
+	max-width: 90%;
 }
 #three_column div {
 	margin: 0 auto;
 	float:left;
 	padding:2em;
-	width:40%;
+	width:25%;
 }
 #three_column img {
-	width:45%;
+	width:44%;
 }
 .clearfix:after {
     visibility: hidden;
@@ -84,14 +93,14 @@ h1 span {
     height: 0;
  }
 footer{
-	font-size: 1em;
+	font-size: .75em;
 	background-color: #D3D3D3;
 	padding: 2em;
 }
 
 footer a{
 	color: #fff;
-	border-radius: 25px;
+	border-radius: 3%;
 	background: #e1c444;
 	padding:1em 2em;
 	text-decoration:none;
@@ -104,4 +113,41 @@ footer a{
 		width: auto;
 
 	}
+	#three_column div {
+		width:100%;
+	}
+	h1 {
+	color: #fff;
+	font-size:1.25em;
+}
+h1 span {
+	font-size: .75em;
+	color: #fff;
+}
+.cta {
+	color: #fff;
+	border-radius: 3%;
+	background: #e1c444;
+	padding:1em 2em;
+	text-decoration:none;
+	display: inline-block;
+}
+.description {
+	padding: 1em;
+	text-align: center;
+	font-size: 1em;
+}
+#image_text{
+	font-size: 1.25em;
+	text-transform: capitalize;
+	text-align: center;
+	position: relative;
+	transform: translateY(-50%);
+	top:50%;
+}
+
+#image_text h1 {
+	margin: 0em;
+}
+
 }
