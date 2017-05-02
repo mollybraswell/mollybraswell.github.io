@@ -34,15 +34,18 @@ h1 span {
 	color: #fff;
 	border-radius: 3%;
 	background: #e1c444;
+	margin-top: 1em;
 	padding:1em 2em;
 	text-decoration:none;
 	display: inline-block;
 }
 
 .description {
-	padding: 1em;
-	margin: 0 5 5 0;
-	font-size: 1.5em;
+	padding: 1 em;
+	margin-left: 1.5em;
+	width: 80%
+	font-size: 1 em;
+	
 }
 
 .hero_image{
@@ -74,6 +77,9 @@ h1 span {
 	padding-top: 1em;
 	margin:auto;
 	max-width: 90%;
+	border-top: 2px solid;
+	font: 3em;
+	text-align: center;
 }
 #three_column div {
 	margin: 0 auto;
@@ -82,6 +88,8 @@ h1 span {
 	width:25%;
 }
 #three_column img {
+	display: block;
+	margin: auto;
 	width:44%;
 }
 .clearfix:after {
@@ -96,6 +104,7 @@ footer{
 	font-size: .75em;
 	background-color: #D3D3D3;
 	padding: 2em;
+	margin-left: 1.5em
 }
 
 footer a{
@@ -108,15 +117,15 @@ footer a{
 }
 
 @media only screen and (max-width: 768px) {
-	#threecolumn {
+#threecolumn {
 		float: none;
 		width: auto;
 
 	}
-	#three_column div {
+#three_column div {
 		width:100%;
 	}
-	h1 {
+h1 {
 	color: #fff;
 	font-size:1.25em;
 }
@@ -148,6 +157,18 @@ h1 span {
 
 #image_text h1 {
 	margin: 0em;
+}
+
+nav{
+	/* background-color: #D3D3D3; */
+	float:none;
+}
+nav a{
+	color:inherit;
+	display: block;
+	padding: 1em;
+	text-decoration:none;
+
 }
 
 }
