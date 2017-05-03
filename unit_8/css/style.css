@@ -41,22 +41,25 @@ h1 span {
 }
 
 .description {
-	padding: 1 em;
-	margin-left: 1.5em;
-	width: 80%
+	padding: 0 2 2 0;
+	margin-top: 2em;
+	padding-bottom: 2em;
 	font-size: 1 em;
+	font-family: 'Cormorant SC', serif;
+	/*font-style: italic;*/
+	text-align: center;
 	
 }
 
 .hero_image{
-	margin-bottom: 1.5em;
+	margin-bottom: 1.75em;
 	opacity: 0.88;
 	/* opacity: 0.75; */
 	background-image: url(../images/working.jpeg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	height: 90vh;
+	height: 88vh;
 	/*padding-top: 15em;*/
 	position: relative;
 }
@@ -74,23 +77,29 @@ h1 span {
 	margin: 0em;
 }
 #three_column {
-	padding-top: 1em;
-	margin:auto;
+	margin:0 auto;
 	max-width: 90%;
 	border-top: 2px solid;
-	font: 3em;
+	font-size: : 3em;
+	text-align: left;
+}
+
+.sidecar_gives {
+	font-size: 2.2em;
 	text-align: center;
 }
+
 #three_column div {
-	margin: 0 auto;
+	/*margin: 0 auto;*/
 	float:left;
-	padding:2em;
-	width:25%;
+	/*padding:2em;*/
+	width:33.3%;
 }
 #three_column img {
 	display: block;
 	margin: auto;
 	width:44%;
+
 }
 .clearfix:after {
     visibility: hidden;
@@ -101,10 +110,10 @@ h1 span {
     height: 0;
  }
 footer{
+	margin-top: 2em;
 	font-size: .75em;
 	background-color: #D3D3D3;
 	padding: 2em;
-	margin-left: 1.5em
 }
 
 footer a{
@@ -124,6 +133,7 @@ footer a{
 	}
 #three_column div {
 		width:100%;
+		margin: 0 auto;
 	}
 h1 {
 	color: #fff;
@@ -156,17 +166,18 @@ h1 span {
 }
 
 #image_text h1 {
-	margin: 0em;
+	margin: 0;
 }
 
 nav{
 	/* background-color: #D3D3D3; */
-	float:none;
+	float: none;
+	clear: both;
 }
 nav a{
 	color:inherit;
 	display: block;
-	padding: 1em;
+	padding: .4em;
 	text-decoration:none;
 
 }
