@@ -1,3 +1,5 @@
+*{box-sizing: border-box;}
+
 body {
 	color:#333;
 	font-family: 'Nunito', sans-serif;
@@ -41,10 +43,9 @@ h1 span {
 }
 
 .description {
-	padding: 0 2 2 0;
 	margin-top: 2em;
-	padding-bottom: 2em;
-	font-size: 1 em;
+	margin-bottom: 2em;
+	font-size: 1em;
 	font-family: 'Cormorant SC', serif;
 	/*font-style: italic;*/
 	text-align: center;
@@ -52,7 +53,6 @@ h1 span {
 }
 
 .hero_image{
-	margin-bottom: 1.75em;
 	opacity: 0.88;
 	/* opacity: 0.75; */
 	background-image: url(../images/working.jpeg);
@@ -84,15 +84,15 @@ h1 span {
 	text-align: left;
 }
 
-#sidecar_gives {
+.sidecar_gives {
 	font-size: 2.2em;
 	text-align: center;
 }
 
-#three_column div {
+#three_column .column {
 	/*margin: 0 auto;*/
 	float:left;
-	/*padding:2em;*/
+	padding:10px;
 	width:33.3%;
 }
 #three_column img {
